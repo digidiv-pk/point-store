@@ -1,0 +1,105 @@
+.form {
+  padding: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+
+  :global {
+
+    .dropdown {
+      height: 100%;
+      width: 100%;
+      padding: 0;
+      .dropdown-toggle {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        &:after {
+          content: unset;
+        }
+
+        &:focus {
+          box-shadow: none;
+        }
+
+        .material-icons {
+          color: white;
+        }
+      }
+    }
+
+
+
+    .input-group-prepend, .input-group-append {
+      width: 30px;
+      height: 40px;
+      border-radius: 0;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      .material-icons {
+        vertical-align: middle;
+      }
+    }
+  }
+  .selectGroup {
+    :global {
+      .input-group-prepend {
+        background-color: #1e85b3;
+        color: white;
+      }
+    }
+
+
+    input {
+      width: 200px;
+      height: 40px;
+      border-radius: 0;
+      outline: unset;
+      border: 1px solid #b3b3b3;
+      &:focus{
+        box-shadow: none;
+        outline: unset;
+        border: 1px solid #b3b3b3;
+      }
+
+      &:read-only {
+        background-color: white;
+      }
+    }
+  }
+  .searchGroup {
+    :global {
+      .input-group-append {
+        background-color: white;
+        color: #b3b3b3;
+        border: 1px solid #b3b3b3;
+        border-left: 0;
+      }
+    }
+    input {
+      width: 200px;
+      height: 40px;
+      border-radius: 0;
+      outline: unset;
+      border: 1px solid #b3b3b3;
+      border-right: 0;
+      &:focus{
+        box-shadow: none;
+        outline: unset;
+        border: 1px solid #b3b3b3;
+        border-right: 0;
+      }
+    }
+
+  }
+  .searchButton {
+    border-radius: 0;
+    height: 40px;
+    background-color: #3fa9f5;
+    color: white;
+  }
+}

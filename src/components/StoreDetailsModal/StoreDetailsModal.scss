@@ -1,0 +1,50 @@
+.store-detail{
+ label{
+   font-size: 12px;
+   line-height: 0.75;
+   text-align: right;
+   color: #666666;
+ }
+  .input-style, .pac-target-input{
+    border-radius: 6px;
+    background-color: #eef3f9;
+    ::placeholder{
+      font-size: 14px;
+      line-height: 0.64;
+      text-align: left;
+      color: #666666;
+    }
+    &:focus{
+      box-shadow: unset;
+      border-radius: 6px;
+      background-color: #eef3f9;
+    }
+  }
+
+}
+.close {
+  color: #ffffff;
+  z-index: 1111;
+}
+.m-title{
+  color: #ffffff;
+  font-size: 12px;
+}
+.pac-container {
+  z-index: 30000;
+}
+.btn{
+  &.store-detail{
+    width: 121px;
+    height: 47px;
+    border-radius: 6px;
+    background-color: #0071bc;
+    font-size: 16px;
+    line-height: 0.56;
+    text-align: center;
+    color: #ffffff;
+    &:hover{
+      color: #ffffff;
+    }
+  }
+  }

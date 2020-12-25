@@ -1,0 +1,17 @@
+input {
+  &.bordered {
+    border-width: 5px 7px;
+    border-color: #eef3f9;
+    height: 45px;
+
+    &:focus {
+      border-color: #eef3f9;
+      outline: none;
+      box-shadow: none;
+    }
+
+    &::placeholder {
+      font-size: 12px;
+    }
+  }
+}

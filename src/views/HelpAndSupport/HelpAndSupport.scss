@@ -1,0 +1,34 @@
+.card-header{
+  padding: 0;
+  background-color: #00accd;
+  height: 41.7px;
+  position: relative;
+  .btn-link{
+    padding: 10px 0 0 60px ;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.25;
+    text-align: left;
+
+  }
+  .up-down-arrow {
+
+    img{
+      color: #fff;
+      position: absolute;
+      top: 15px;
+      right: 20px;
+    }
+  }
+
+  .card-btn {
+    float: right;
+    position: relative;
+    padding-right: 50px;
+  }
+}
+
+.card-body {
+  direction: rtl;
+}

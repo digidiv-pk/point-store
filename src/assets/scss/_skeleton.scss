@@ -1,0 +1,44 @@
+.skeleton {
+  height: 1.2em;
+
+  & > .skeleton-pulse {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(30, 133, 179, 0.13);
+    animation: skeleton-pulse 1.5s ease-in-out 0.5s infinite;
+  }
+
+  & > .skeleton-circle {
+    border-radius: 50%;
+  }
+
+  & > .skeleton-text {
+    height: auto;
+    transform: scale(1, 0.60);
+    margin-top: 0;
+    border-radius: 4px;
+    margin-bottom: 0;
+    transform-origin: 0 60%;
+
+    &:empty:before {
+      content: "\00a0";
+    }
+  }
+
+  & > .skeleton-rect {
+    border-radius: 5px;
+  }
+
+}
+
+@keyframes skeleton-pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}

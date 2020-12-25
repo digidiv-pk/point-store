@@ -1,0 +1,121 @@
+.section {
+  font-family: Heebo sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 20px;
+
+  :global {
+    .card {
+      border-radius: unset;
+      margin-bottom: 5px;
+    }
+    .card-header {
+      display: inline-flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+      background-color: #f2f2f2;
+      padding-left: 15px;
+      padding-right: 15px;
+
+      .add-btn {
+        cursor: pointer;
+        user-select: none;
+      }
+    }
+
+    .card-body {
+
+      .add-user-form {
+        display: inline-flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        padding: 5px;
+
+        .form-group {
+          width: 100%;
+
+          label {
+            margin: 0;
+          }
+
+          .form-control {
+            border-radius: 2px;
+
+            &:focus {
+              box-shadow: none;
+            }
+            &:invalid {
+              box-shadow: unset;
+            }
+          }
+        }
+
+        .form-action {
+          width: max-content;
+          flex-shrink: 0;
+        }
+
+
+      }
+
+      .add-btn {
+        background-color: #0071bc;
+        border-radius: 2px;
+        color: white;
+      }
+      table {
+        th {
+          text-align: center;
+          vertical-align: middle;
+        }
+        th,
+        td {
+          border: 1px solid #afafaf;
+        }
+        tr {
+          height: 40px;
+
+          td {
+            &.center {
+              text-align: center;
+              vertical-align: middle;
+            }
+            .edit-btn {
+              cursor: pointer;
+            }
+
+            .form-toggle {
+              label {
+                cursor: pointer;
+                input {
+                  display: none;
+
+                  &:checked {
+                    & ~ .toggle-off {
+                      display: none;
+                    }
+                  }
+                  &:not(:checked) {
+                    & ~ .toggle-on {
+                      display: none;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .view-all-btn {
+      float: right;
+      background-color: #b3b3b3;
+      color: white;
+      border-radius: 2px;
+    }
+  }
+}

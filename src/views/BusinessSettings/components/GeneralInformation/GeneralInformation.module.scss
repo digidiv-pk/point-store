@@ -1,0 +1,65 @@
+.form {
+  :global {
+    label {
+      font-family: Rubik sans-serif;
+      font-size: 12px;
+      line-height: 1.22;
+      color: #324657;
+    }
+
+    h4 {
+      font-family: Rubik sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 1.22;
+      color: #324657;
+    }
+
+    .form-check-group {
+      display: inline-flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+
+      .form-check {
+        padding-left: 0;
+
+        label {
+          display: inline-flex;
+          gap: 2px;
+          cursor: pointer;
+
+          .material-icons {
+            vertical-align: middle;
+            font-size: 18px;
+          }
+
+          input {
+            display: none;
+
+            &:checked {
+              & ~ .unchecked {
+                display: none;
+              }
+            }
+
+            &:not(:checked) {
+              & ~ .checked {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .btn-blue {
+      height: 40px;
+      background-color: #0071bc;
+      color: white;
+      font-family: Heebo sans-serif;
+      font-size: 12px;
+      border-radius: 2px;
+    }
+  }
+}

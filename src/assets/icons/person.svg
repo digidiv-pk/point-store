@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="prefix__icon" width="21.716" height="21.715" viewBox="0 0 21.716 21.715">
+    <defs>
+        <linearGradient id="prefix__linear-gradient" x1=".671" x2=".329" y1=".97" y2=".03" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#1e85b3"/>
+            <stop offset=".17" stop-color="#167fac"/>
+            <stop offset=".641" stop-color="#05749f"/>
+            <stop offset="1" stop-color="#00709b"/>
+        </linearGradient>
+        <linearGradient id="prefix__linear-gradient-2" x1=".603" x2=".054" y1="1.106" y2="-1.481" xlink:href="#prefix__linear-gradient"/>
+        <linearGradient id="prefix__linear-gradient-3" x1="1.166" x2="0" y1="2.328" y2="-.874" xlink:href="#prefix__linear-gradient"/>
+    </defs>
+    <g id="prefix__Group_181" data-name="Group 181">
+        <path id="prefix__Path_494" fill="#fff" d="M3704.32-9724.783a10.2 10.2 0 0 0 10.2 10.2 10.2 10.2 0 0 0 10.2-10.2 10.2 10.2 0 0 0-10.2-10.2 10.2 10.2 0 0 0-10.2 10.2z" data-name="Path 494" transform="translate(-3703.658 9735.641)"/>
+        <path id="prefix__Path_495" fill="url(#prefix__linear-gradient)" d="M3713.208-9715.232a10.869 10.869 0 0 1-10.858-10.857 10.87 10.87 0 0 1 10.858-10.857 10.87 10.87 0 0 1 10.858 10.857 10.869 10.869 0 0 1-10.858 10.857zm0-20.392a9.545 9.545 0 0 0-9.533 9.534 9.544 9.544 0 0 0 9.533 9.533 9.545 9.545 0 0 0 9.534-9.533 9.546 9.546 0 0 0-9.534-9.534z" data-name="Path 495" transform="translate(-3702.351 9736.947)"/>
+        <g id="prefix__Group_180" data-name="Group 180" transform="translate(4.147 13.165)">
+            <path id="prefix__Path_496" fill="url(#prefix__linear-gradient-2)" d="M3724.261-9697.752a1.712 1.712 0 0 0-1.126.082 4.388 4.388 0 0 1-1.69.338 4.4 4.4 0 0 1-1.675-.33 1.732 1.732 0 0 0-1.09-.084c-3.12.807-3.854 2.981-4 5.3a10.153 10.153 0 0 0 6.71 2.521 10.159 10.159 0 0 0 6.8-2.6c-.184-2.206-1.04-4.418-3.929-5.227z" data-name="Path 496" transform="translate(-3714.68 9697.812)"/>
+        </g>
+        <path id="prefix__Path_497" fill="url(#prefix__linear-gradient-3)" d="M3731.531-9715.829a3.187 3.187 0 0 1-3.187 3.188 3.186 3.186 0 0 1-3.186-3.187 3.185 3.185 0 0 1 3.186-3.185 3.185 3.185 0 0 1 3.187 3.184z" data-name="Path 497" transform="translate(-3717.487 9725.047)"/>
+    </g>
+</svg>

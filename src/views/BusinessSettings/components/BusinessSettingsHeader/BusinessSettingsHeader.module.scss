@@ -1,0 +1,56 @@
+.row {
+  height: 60px;
+  color: white;
+
+  :global {
+    .left,
+    .right {
+      font-family: Heebo sans-serif;
+      font-weight: 500;
+      display: inline-flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      padding: 5px;
+
+      .text-data {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 10px;
+
+        h5 {
+          font-size: 18px;
+          margin-bottom: 0;
+        }
+
+        span {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .left {
+      background-color: #29abe2;
+    }
+
+    .right {
+      background-color: #ff931e;
+    }
+
+    .edit-icon {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 60px;
+
+      img {
+        width: 30px;
+        cursor: pointer;
+      }
+    }
+  }
+}

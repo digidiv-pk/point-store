@@ -1,0 +1,62 @@
+.pagination {
+  position: relative;
+  padding: 10px;
+
+  .loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    cursor: wait;
+  }
+
+  .paginationContainer {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+
+    .btn {
+      height: 40px;
+      background-color: #cccccc;
+      border-radius: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+
+      &.btnSquare {
+        width: 40px;
+        padding-left: unset;
+        padding-right: unset;
+      }
+
+      &.btnRound {
+        border-radius: 50%;
+      }
+
+      &.active {
+        color: white;
+        cursor: default;
+      }
+
+      &.pageActive {
+        background-color: #333333;
+      }
+
+      &.limitActive {
+        background-color: #727272;
+      }
+
+      &.allowPageShift {
+        background-color: #333333;
+        color: white;
+      }
+
+      &:disabled {
+        background-color: #e2e2e2;
+        cursor: not-allowed;
+      }
+    }
+  }
+}

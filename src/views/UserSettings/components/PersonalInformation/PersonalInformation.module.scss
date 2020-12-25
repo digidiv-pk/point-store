@@ -1,0 +1,58 @@
+.section {
+  font-family: Heebo sans-serif;
+  padding: 20px 100px;
+  :global {
+    h4 {
+      font-size: 20px;
+    }
+    .form-group {
+      width: 300px;
+    }
+    .form-check-group {
+      display: inline-flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 40px;
+      width: 100%;
+
+      .form-check {
+        padding-left: 0;
+
+        label {
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+          gap: 2px;
+          cursor: pointer;
+
+          .material-icons {
+            vertical-align: middle;
+            font-size: 20px;
+          }
+
+          input {
+            display: none;
+
+            &:checked {
+              & ~ .unchecked {
+                display: none;
+              }
+            }
+
+            &:not(:checked) {
+              & ~ .checked {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .save-btn {
+      background-color: #0071bc;
+      margin-top: 10px;
+      border-radius: 2px;
+    }
+  }
+}

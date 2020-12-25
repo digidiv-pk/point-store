@@ -1,0 +1,44 @@
+.section {
+  font-family: Heebo sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 20px;
+
+  :global {
+    .card {
+      border-radius: unset;
+    }
+    .card-header {
+      display: inline-flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+      background-color: #f2f2f2;
+      padding-left: 15px;
+      padding-right: 15px;
+
+      .edit-btn {
+        cursor: pointer;
+        user-select: none;
+      }
+    }
+
+    .card-body {
+      section {
+        padding: 5px 10px;
+        &:not(:last-child) {
+          border-bottom: 1px solid #cccccc;
+        }
+      }
+    }
+
+    .update-btn {
+      margin-top: 5px;
+      background-color: #4d4d4d;
+      color: white;
+      border-radius: 2px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+}

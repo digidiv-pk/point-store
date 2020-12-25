@@ -1,0 +1,225 @@
+.searchOrders {
+  background-color: #e6e6e6;
+  width: 100%;
+
+  p {
+    font-size: 14px;
+    line-height: 1.1;
+    text-align: left;
+    color: #666666;
+    padding-top: 5px;
+    margin-bottom: 0;
+  }
+}
+
+.formBackground {
+  background-color: #e6e6e6;
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.label {
+  font-size: 10px;
+  line-height: 0.6;
+  text-align: left;
+  color: #666666;
+}
+
+.dateLabel {
+  font-size: 10px;
+  line-height: 0.6;
+  text-align: left !important;
+  color: #666666;
+  width: 96%;
+}
+
+.inputGroup {
+  display: inline-flex;
+  border: 1px solid #b3b3b3 !important;
+  height: 29px;
+
+  .dateBtn {
+    width: 40px !important;
+    height: 29px !important;
+    padding: 0 !important;
+    background-color: #ffffff !important;
+    color: #666666 !important;
+    position: relative !important;
+    border: unset;
+
+    &:hover {
+      background-color: unset;
+    }
+
+    &::after {
+      content: unset !important;
+    }
+
+    &:focus {
+      border: unset !important;
+      outline: 0 !important;
+      box-shadow: unset !important;
+    }
+
+    .downArrow {
+      background-color: #1e83b3 !important;
+      color: #ffffff !important;
+      height: 29px !important;
+      position: absolute !important;
+      left: 0 !important;
+      bottom: 0;
+    }
+  }
+
+  :global {
+    .input-group-prepend {
+      width: unset !important;
+    }
+  }
+
+  .time {
+    background-color: #ffffff !important;
+    padding: 5px !important;
+    height: 29px !important;
+    border: unset !important;
+  }
+
+  .dateInput {
+    width: 140px !important;
+    height: 29px;
+    background-color: #ffff !important;
+    border: unset;
+    line-height: 1;
+    padding: 0;
+    font-size: 15px;
+
+    &:focus {
+
+      box-shadow: unset !important;
+    }
+
+    &::placeholder {
+      text-align: left;
+      font-size: 12px;
+      color: #666666 !important;
+    }
+  }
+
+  .timeInput {
+    width: 110px !important;
+    height: 29px;
+    background-color: #ffff !important;
+    border: unset;
+    line-height: 1;
+    padding: 0;
+    font-size: 15px;
+
+    &:focus {
+
+      box-shadow: unset !important;
+    }
+
+    &::placeholder {
+      text-align: left;
+      font-size: 12px;
+      color: #666666 !important;
+    }
+  }
+
+  .orderNumber {
+    background-color: #ffffff !important;
+    padding: 5px !important;
+    height: 29px !important;
+    border: unset;
+  }
+
+  .orderNumberInput {
+    width: 150px !important;
+    height: 29px;
+    background-color: #ffffff;
+    border: unset !important;
+
+    &::placeholder {
+      font-size: 12px;
+      color: #666666 !important;
+      padding-left: 5px;
+      letter-spacing: 2px;
+    }
+  }
+
+  .dark {
+    background-color: #1e85b3 !important;
+    color: #fff !important;
+    padding: 0px !important;
+    height: 29px !important;
+  }
+
+  .inputGroupText {
+
+  }
+
+  .dateInput {
+    width: 200px !important;
+    height: 29px !important;
+    border: unset;
+    background-color: #ffffff !important;
+
+    &:focus {
+      box-shadow: unset !important;
+    }
+
+    &::placeholder {
+      font-size: 12px;
+      color: #666666 !important;
+      padding-left: 8px;
+    }
+  }
+
+  .priceText {
+    background-color: #ffffff !important;
+    padding: 5px !important;
+    height: 29px !important;
+    border: unset;
+  }
+
+  .priceInput {
+    width: 150px !important;
+    height: 29px;
+    background-color: #ffff;
+    border: unset !important;
+
+    &::placeholder {
+      font-size: 12px;
+      color: #666666 !important;
+      padding-left: 5px;
+
+    }
+
+
+  }
+
+  .time {
+    background-color: #ffffff !important;
+  }
+
+  .calendar {
+    background-color: #ffff !important;
+    height: 29px !important;
+    padding: 3px !important;
+    border: unset;
+  }
+
+}
+
+.searchBtn {
+  width: 152.3px !important;
+  height: 35.4px;
+  background-color: #3fa9f5 !important;
+  text-shadow: 7px 7px 5px rgba(165, 165, 165, 0.75);
+  font-size: 15px !important;
+  line-height: 1;
+  text-align: center !important;
+  color: #ffffff !important;
+  margin-left: 10px;
+}
